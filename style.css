@@ -39,11 +39,11 @@ html{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: yellow; 
+    color: #FAFA33; 
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: yellow;
+    color: #FAFA33;
 }
 .navbar .menu li{
     list-style: none;
@@ -58,7 +58,7 @@ html{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: yellow;
+    color: #FAFA33;
 }
 .navbar .sticky .menu li a:hover{
     color: #fff;
@@ -101,7 +101,7 @@ html{
 .home{
     display: flex;
    /*background: url("images/portada.jpg") no-repeat center;*/
-    background-color:darkslategrey;
+    background-color:#7393B3;
     height: 100vh;
     color: white;
     min-height: 500px;
@@ -130,13 +130,13 @@ html{
 }
 .home .home-content a{
     display: inline-block;
-    color:yellow;
+    color:#FAFA33;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid yellow;
+    border: 2px solid #FAFA33;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
@@ -214,25 +214,25 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: darkslategrey;
+    color: #7393B3;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: darkslategrey;
+    background: #7393B3;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid darkslategrey;
+    border: 2px solid #7393B3;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: darkslategrey;
+    color: #7393B3;
     background: none;
 }
 
@@ -250,7 +250,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 22px);
-    background: #222;
+    background: rgb(41, 41, 41);
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -258,7 +258,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: darkslategrey;
+    background: #7393B3;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -268,7 +268,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: yellow;
+    color: #FAFA33;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -297,18 +297,18 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: darkslategrey;
+    background: #7393B3;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid darkslategrey;
+    border: 2px solid #7393B3;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: darkslategrey;
+    color: #7393B3;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -336,7 +336,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: darkslategrey;
+    background: #7393B3;
 }
 .skills-content .right .ilus::before{
     width: 80%;
@@ -387,7 +387,7 @@ section .title::after{
 .gallery .gal-content .card{
     width: calc(33% - 22px);
     position: relative;
-    background: #222;
+    background: rgb(41, 41, 41);
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -396,7 +396,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .gallery .gal-content .card:hover{
-    background: darkslategrey;
+    background: #7393B3;
 }
 .gallery .gal-content .card .box{
     transition: all 0.3s ease;
@@ -440,14 +440,14 @@ section .title::after{
 .contact .contact-content .row{
     display: flex;
     height: 65px;
-    align-items: center;
 }
+
 .contact .contact-content .row .info{
     margin-left: 30px;
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: darkslategrey;
+    color: #7393B3;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -496,8 +496,8 @@ section .title::after{
 .contact .right form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid #2f4f4f;
-    background: darkslategrey;
+    border: 2px solid #7393B3;
+    background: #7393B3;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -509,6 +509,11 @@ section .title::after{
     color: darkslategrey;
     background: none;
 }
+
+.container {
+    justify-content:center;    
+}
+
 
 /* footer section styling */
 footer{
@@ -638,6 +643,7 @@ footer span a:hover{
     .gallery .gal-content .card{
         width: 100%;
     }
+    
 }
 
 @media (max-width: 500px){
@@ -647,4 +653,5 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+
 }
